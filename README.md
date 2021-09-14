@@ -1,3 +1,7 @@
-# Solution from exercises from Think Julia
+# Solution of exercises from [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
 
-[![Replit](https://img.shields.io/badge/Replit.com-1D2021?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@yashpawar/ThinkJuliaExercisesjl)
+[![Run on Replit.com](https://replit.com/badge/github/yashppawar/ThinkJuliaExercises.jl)](https://replit.com/@yashpawar/ThinkJuliaExercisesjl)
+
+This repo consists of my solutions for the exercises in [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html) book.
+
+Original Repo is [ThinkJulia.jl](https://github.com/BenLauwens/ThinkJulia.jl)
