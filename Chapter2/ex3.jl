@@ -1,8 +1,9 @@
 ## Exercise 2-3
 ## Practice using the Julia REPL as a calculator:
 
-## 1. The volume of a sphere with radius r is 43πr3. What is the volume of a sphere with radius 5?
+## 1. The volume of a sphere with radius r is (4/3)πr^3. What is the volume of a sphere with radius 5?
 println("Ans 1:")
+println("the volume of sphere with radius 5 is: " * string((4/3) * π * 5 ^ 3))
 
 ## 2. Suppose the cover price of a book is $ 24.95, but bookstores get a 40 % discount. Shipping costs $ 3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?
 println("Ans 2:")
