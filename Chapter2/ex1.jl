@@ -7,5 +7,15 @@
 
 # Now put the same statements in a script and run it. What is the output? Modify the script by transforming each expression into a print statement and then run it again.
 println("Ans: ")
+5
+x = 5
+x + 1
+# no output, lets try using print.
+
+println(5)
+# println(x = 5)  # error, LoadError: MethodError
+x = 5
+println(x)
+println(x + 1)
 
 println("End.")
