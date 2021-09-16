@@ -34,6 +34,12 @@ function dotwice(func, arg)
     func(arg)
 end
 
+# extra
+function dotwice(func, args...)
+    func(args...)
+    func(args...)
+end
+
 dotwice(println, "dotwice")
 
 ## 3. Copy the definition of printtwice from earlier in this chapter to your script.
@@ -52,6 +58,12 @@ println("Ans 5:")
 function dofour(func, arg)
     dotwice(func, arg)
     dotwice(func, arg)
+end
+
+# extra
+function dofour(func, args...)
+    dotwice(func, args...)
+    dotwice(func, args...)
 end
 
 dofour(printtwice, "spam")
