@@ -4,6 +4,7 @@
 ## Now move the function call back to the bottom and move the definition of printlyrics after the definition of repeatlyrics. What happens when you run this program?
 println("Ans: ")
 
+# repeatlyrics()  # Error, UndefVarError
 
 function printlyrics()
     println("I'm a lumberjack, and I'm okay.")
