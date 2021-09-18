@@ -8,3 +8,16 @@
 ## end
 
 ## Now modify the macro to draw a square. Don’t go on until you’ve got it working!
+using ThinkJulia
+
+turtle = Turtle()
+
+@svg begin
+    forward(turtle, 100)
+    turn(turtle, -90)
+    forward(turtle, 100)
+    turn(turtle, -90)
+    forward(turtle, 100)
+    turn(turtle, -90)
+    forward(turtle, 100)
+end
