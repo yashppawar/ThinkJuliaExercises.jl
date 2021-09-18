@@ -8,6 +8,8 @@
 ## end
 
 ## Now modify the macro to draw a square. Don’t go on until you’ve got it working!
+println("Ans: ")
+
 using ThinkJulia
 
 turtle = Turtle()
@@ -21,3 +23,5 @@ turtle = Turtle()
     turn(turtle, -90)
     forward(turtle, 100)
 end
+
+println("End.")
