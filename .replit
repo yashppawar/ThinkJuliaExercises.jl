@@ -1,2 +1,2 @@
 language = "julia"
-run = "echo \"use shell to run the files\";"
+run = "chmod +x run.sh; ./run.sh"
