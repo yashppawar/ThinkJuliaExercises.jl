@@ -7,7 +7,27 @@
 ## 1. Write a function named istriangle that takes three integers as arguments, and that prints either “Yes” or “No”, depending on whether you can or cannot form a triangle from sticks with the given lengths.
 println("Ans 1: ")
 
+function istriangle(a, b, c)
+   return (((a + b) > c) && ((b + c) > a) && ((c + a) > b)) ? "Yes" : "No"
+end
+
+println(istriangle(13, 1, 1))
+println(istriangle(4, 3, 5))
+
 ## 2. Write a function that prompts the user to input three stick lengths, converts them to integers, and uses istriangle to check whether sticks with the given lengths can form a triangle.
 println("Ans 2: ")
+
+function check_is_triangle()
+    print("Enter the first side: ")
+    a = parse(Int64, readline())
+    print("Enter the second side: ")
+    b = parse(Int64, readline())
+    print("Enter the third side: ")
+    c = parse(Int64, readline())
+
+    println(istriangle(a, b, c))
+end
+
+check_is_triangle()
 
 println("End.")
