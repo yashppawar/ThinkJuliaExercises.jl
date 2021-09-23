@@ -44,5 +44,4 @@ end
 
 recurse(9, 2)
 
-## The following exercises use the ThinkJulia module, described in Case Study: Interface Design:
 println("End.")
