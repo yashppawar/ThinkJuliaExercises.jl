@@ -8,4 +8,16 @@
 ## See https://en.wikipedia.org/wiki/Ackermann_function. Write a function named ack that evaluates the Ackermann function. Use your function to evaluate ack(3, 4), which should be 125. What happens for larger values of m and n?
 println("Ans: ")
 
+function ack(m, n)
+    if m == 0
+        return n + 1
+    elseif m > 0 && n == 0
+        return ack(m -1, 1)
+    elseif m > 0 && n > 0
+        return ack(m - 1, ack(m, n -1 ))
+    end 
+end
+
+println(ack(3, 4))
+
 println("End.")
