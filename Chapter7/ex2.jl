@@ -35,8 +35,7 @@ function testsquareroot()
             string(i) * " " * 
             rightjustify(string(root_my), 18) * 
             " " * 
-            rightjustify(string(root), 18) * " " * 
-            string(abs(root_my - root)))
+            rightjustify(string(root), 18) * " " * string(abs(root_my - root)))
     end
 end
 
