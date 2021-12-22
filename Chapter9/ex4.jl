@@ -17,4 +17,10 @@ end
 
 println(usesonly("Hoe alfalfa", "acefhlo"))
 
+for word in eachline("words.txt")
+    if usesonly(word, "acefhlo")
+        println(word)
+    end
+end
+
 println("End.")
